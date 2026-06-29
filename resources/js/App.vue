@@ -4,9 +4,7 @@
     <div v-if="!isLoggedIn" class="flex w-full h-full items-center justify-center bg-slate-100">
         <div class="bg-white rounded-2xl shadow-2xl w-full max-w-sm p-8 border border-slate-200">
             <div class="flex flex-col items-center mb-8">
-                <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center mb-4 shadow-lg">
-                    <i class="ph-fill ph-users-three text-white text-3xl"></i>
-                </div>
+                <img src="https://exporters.czechtrade.gov.cz/getattachment/88ab9bb5-01e2-479e-a2ed-8b2681f49069/PZK_logo_zakladni.jpg?width=600&resizemode=force" alt="PZK Logo" class="h-20 object-contain mb-4">
                 <h1 class="text-2xl font-bold text-slate-800">Databáze RFO</h1>
                 <p class="text-slate-500 text-sm mt-1">Přihlaste se pro pokračování</p>
             </div>
@@ -33,7 +31,8 @@
     <div v-else-if="currentView === 'admin'" class="flex flex-col w-full h-full bg-slate-50">
         <header class="bg-white border-b border-slate-200 px-8 py-4 flex justify-between items-center shrink-0">
             <h1 class="text-xl font-bold text-slate-800 flex items-center gap-2">
-                <i class="ph-fill ph-gear text-blue-600"></i> Administrace
+                <img src="https://exporters.czechtrade.gov.cz/getattachment/88ab9bb5-01e2-479e-a2ed-8b2681f49069/PZK_logo_zakladni.jpg?width=600&resizemode=force" alt="PZK Logo" class="h-7 object-contain">
+                Administrace
             </h1>
             <button @click="currentView = 'crm'" class="border border-slate-200 hover:border-blue-300 hover:bg-blue-50 text-slate-600 hover:text-blue-700 px-4 py-2 rounded-lg transition text-sm flex items-center gap-2">
                 <i class="ph-bold ph-arrow-left"></i> Zpět do CRM
@@ -124,7 +123,7 @@
             <header class="bg-white border-b border-slate-200 px-8 py-5 shrink-0 flex justify-between items-center z-10">
                 <div class="flex items-center gap-6 w-1/2">
                     <h1 class="text-2xl font-bold text-slate-800 flex items-center gap-2">
-                        <i class="ph-fill ph-users-three text-blue-600"></i> Databáze RFO
+                        <img src="https://exporters.czechtrade.gov.cz/getattachment/88ab9bb5-01e2-479e-a2ed-8b2681f49069/PZK_logo_zakladni.jpg?width=600&resizemode=force" alt="PZK Logo" class="h-8 object-contain">
                     </h1>
                     <div class="relative flex-1">
                         <i class="ph ph-magnifying-glass absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-400"></i>
